@@ -5,6 +5,7 @@ scriptHash = Hash.new
 usedFindersHash = Hash.new
 notUsedFindersHash = Hash.new
 
+#looking for the property expression details in the dtsx packages that are under analysis
 
 Dir["c:/dev/**/**/*.dtsx"].each { |file|
   next if File.directory? file
@@ -14,7 +15,7 @@ Dir["c:/dev/**/**/*.dtsx"].each { |file|
 }
 puts "#{funcHash.values.flatten.count} references located in #{funcHash.count} files\n"
 
-Dir["c:/dev/GS.EIM.SSIS/**/*"].each {|file|
+Dir["c:/dev/auto-catbox/**/*"].each {|file|
   next if File.directory? file
   scriptHash[file] = File.open(file, "r").read
 }
