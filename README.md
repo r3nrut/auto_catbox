@@ -8,4 +8,4 @@ my automation experiements
 
 [Website](http://www.r3nrut.com) • [Docs](https://r3nrut.com/docs/) • [Newsletter](http://skullhacker.net) • [Twitter](https://twitter.com/dturner_tech)
 
-[![r3nrut](http://r3nrut.com/837/r3nrut-logo.png)](http://r3nrut.com)
+[![r3nrut](http://r3nrut.com/r3nrut/837/r3nrut-logo.png)](http://r3nrut.com)
