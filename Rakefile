@@ -1,5 +1,9 @@
 gem 'rdoc'
 require 'rdoc/task'
+require 'rspec/core/rake_task'
+
+task :default => :spec
+RSpec::Core::RakeTask.new
 
 #dynamically sets up each hash key as a rake-able task, ie services_test, browser_test, etc
 # local_variables.map {|x| eval(x.to_s) if eval(x.to_s).class.eql?(Hash)}.inject(:merge).each { |k,v|
