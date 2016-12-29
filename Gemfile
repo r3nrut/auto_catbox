@@ -1,10 +1,6 @@
 source "https://rubygems.org"
 
-group :test do
-	gem rspec
-	gem rake
-	gem gemspec
-end
+gemspec
 
 rspec_dependencies_gemfile = File.expand_path("../Gemfile-rspec-dependencies", __FILE__)
 eval_gemfile rspec_dependencies_gemfile
