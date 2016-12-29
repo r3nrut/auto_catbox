@@ -1,7 +1,7 @@
 class Payments
 
   include Enumerable
-  include com.snaplogic.scripting.language.ScriptHook
+  #include com.snaplogic.scripting.language.ScriptHook
 
   attr_reader :log, :input, :output, :error
 
@@ -56,4 +56,4 @@ end
 
 # The Script Snap will look for a ScriptHook object in the "hook"
 # variable.  The snap will then call the hook's "execute" method.
-$hook = Payments.new($log, $input, $output, $error)
+#$hook = Payments.new($log, $input, $output, $error)
