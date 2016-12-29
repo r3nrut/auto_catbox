@@ -2,7 +2,7 @@
 auto_catbox
 ==========
 
-my automation experiements
+utilities and things I use for stuff I do
 
 [![Build Status](https://travis-ci.org/r3nrut/auto_catbox.svg?branch=master)](https://travis-ci.org/r3nrut/auto_catbox)
 [![npm version](https://badge.fury.io/js/r3nrut.svg)](https://badge.fury.io/js/r3nrut)
