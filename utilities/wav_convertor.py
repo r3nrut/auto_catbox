@@ -7,8 +7,8 @@ from pydub import AudioSegment
     # add album/artist info, use options for artist/album
     # use file name as the song title
 songname = "11 Pilgrimage (Alternate Version)"
-song = AudioSegment.from_wav("C:/Users/Dturner/Music/The Fragile Deviations/"+songname+".wav")
-song.export("C:/Users/Dturner/Music/The Fragile Deviations/"+songname+".mp3",
+song = AudioSegment.from_wav("C:/somepath/"+songname+".wav")
+song.export("C:/somepath/"+songname+".mp3",
             format="mp3",
             tags={"album": "The Fragile: Deviations", "artist": "Nine Inch Nails"})
     
