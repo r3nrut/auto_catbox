@@ -1,5 +1,5 @@
 # Usage Example
-# jruby C:\dev\QAAutomationScripts\Utilities\change_detection_utility.rb "C:/Users/dturner/Syncplicity Folders"
+# jruby C:\dev\QAAutomationScripts\Utilities\change_detection_utility.rb "C:/Users/username/folder"
 
 require 'find'
 require 'digest/md5'
