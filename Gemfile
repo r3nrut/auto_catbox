@@ -2,6 +2,9 @@ source "https://rubygems.org"
 
 gemspec
 
+gem 'rake'
+gem 'rspec'
+
 rspec_dependencies_gemfile = File.expand_path("../Gemfile-rspec-dependencies", __FILE__)
 eval_gemfile rspec_dependencies_gemfile
 
