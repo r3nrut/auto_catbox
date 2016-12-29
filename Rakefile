@@ -1,5 +1,4 @@
 gem 'rdoc'
-require 'rspec/core/rake_task'
 require 'rdoc/task'
 
 #dynamically sets up each hash key as a rake-able task, ie services_test, browser_test, etc
